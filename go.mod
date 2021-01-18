@@ -1,4 +1,4 @@
-module github.com/alecthomas/chroma
+module github.com/alexthomas/chroma
 
 go 1.13
 
@@ -16,3 +16,5 @@ require (
 	github.com/stretchr/testify v1.3.0 // indirect
 	golang.org/x/sys v0.0.0-20200413165638-669c56c373c4 // indirect
 )
+
+replace github.com/alecthomas/chroma => ../../
